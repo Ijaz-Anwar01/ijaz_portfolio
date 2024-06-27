@@ -118,7 +118,7 @@ a:hover, a:active, a:focus {
     margin-bottom: 45px;
     padding: 120px 0 0 0;
     overflow: hidden;
-    background: linear-gradient(rgba(45, 12, 82, 0.95), rgba(94, 46, 176, 0.95)), url(images/web.png);
+    background: linear-gradient(rgba(45, 12, 82, 0.95), rgba(94, 46, 176, 0.95)), url(web.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

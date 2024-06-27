@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Ijaz Anwar Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    
+    <script>
+        window.addEventListener('scroll', function () {
+            var navbar = document.querySelector('.navbar');
+            var hero = document.querySelector('.hero');
+            var heroHeight = hero.offsetHeight;
+
+            if (window.scrollY > heroHeight) {
+                navbar.classList.add('sticky');
+            } else {
+                navbar.classList.remove('sticky');
+            }
+        });
+    </script>
+    
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Nav Bar Start -->
+    <nav class="navbar navbar-expand-lg bg-light navbar-light">
+        <div class="container-fluid">
+            <a href="home.html" class="navbar-brand">Ijaz Anwar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ml-auto">
+                    <a href="#home" class="nav-item nav-link">Home</a>
+                    <a href="#about" class="nav-item nav-link">About</a>
+                    <a href="#skills" class="nav-item nav-link">Skills</a>
+                    <a href="#project" class="nav-item nav-link">My work</a>
+                    <a href="#contact" class="nav-item nav-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Nav Bar End -->
+
+    <!-- Hero Start -->
+    <div class="hero" id="home">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-sm-12 col-md-6">
+                    <div class="hero-content">
+                        <div class="hero-text fade-in">
+                            <p>I'm</p>
+                            <div>
+                                <h1 class="animated-text">Ijaz Anwar</h1>
+                            </div>
+                            <div style="color: aliceblue; font-size: larger;">Full-Stack Developer</div>
+                        </div>
+                        <div class="hero-btn fade-in">
+                            <a class="btn" href="images/Ijaz Anwar Resume (1).pdf" download="Ijaz_Anwar_CV.pdf">Get my CV</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 d-none d-md-block">
+                    <div class="hero-image fade-in">
+                        <img src="images/ijaz.png" alt="Hero Image" class="hero-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+    <!-- About Start -->
+    <div class="about wow fadeInUp fade-in" data-wow-delay="0.1s" id="about">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <div class="about-content text-center">
+                        <div class="section-header text-center">
+                           <br> <h2>Learn About Me</h2>
+                        </div>
+                        <div class="about-text">
+                            <p>
+                                Hello! I'm Ijaz Anwar, a BSc Computer Science graduate with a deep passion for coding and technology. Currently, I'm immersed in learning the MERN stack (MongoDB, Express.js, React, Node.js) to build robust and scalable web applications. My journey in computer science has equipped me with a solid foundation in algorithms, data structures, and software development principles.
+
+                                I thrive on challenges and enjoy exploring new technologies to expand my skill set. With a keen eye for detail and a commitment to delivering high-quality work, I am dedicated to crafting efficient and user-friendly solutions that solve real-world problems. My goal is to continuously grow as a full-stack developer and contribute innovative ideas to the tech industry.
+                                
+                                Let's connect and explore how we can collaborate on exciting projects!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Skills Start -->
+    <div class="skills wow fadeInUp" data-wow-delay="0.1s" id="skills">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <div class="skills-content text-center">
+                        <div class="section-header text-center">
+                            <h2>Technical Skills</h2>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-name wow custom-bounce-in" data-wow-delay="0.2s">
+                                <p>HTML</p>
+                            </div>
+                            <div class="skill-name wow custom-bounce-in" data-wow-delay="0.3s">
+                                <p>CSS</p>
+                            </div>
+                            <div class="skill-name wow custom-bounce-in" data-wow-delay="0.4s">
+                                <p>JavaScript</p>
+                            </div>
+                            <div class="skill-name wow custom-bounce-in" data-wow-delay="0.5s">
+                                <p>PHP</p>
+                            </div>
+                            <div class="skill-name wow custom-bounce-in" data-wow-delay="0.6s">
+                                <p>Flutter</p>
+                            </div>
+                            <div class="skill-name wow custom-bounce-in" data-wow-delay="0.7s">
+                                <p>C++</p>
+                            </div>
+                            <div class="skill-name wow custom-bounce-in" data-wow-delay="0.8s">
+                                <p>Java</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Skills End -->
+
+    <!-- Projects Start -->
+    <div class="project wow fadeInUp fade-in" data-wow-delay="0.1s" id="project">
+        <div class="container">
+            <div class="section-header text-center wow zoomIn fade-in" data-wow-delay="0.1s">
+                <p>You can find my projects below</p>
+                <h2>Projects</h2><br>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 wow fadeInUp fade-in" data-wow-delay="0.0s">
+                    <div class="service-item">
+                        <div class="service-icon custom-bounce-in">
+                            <img src="images/styleapp.png" alt="">
+                        </div>
+                        <div class="service-text fade-in">
+                            <h3 style="color: black;">Style</h3>
+                            <p>
+                                Style is a mobile application built using flutter and firebase to book appointments in a Salon.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp fade-in" data-wow-delay="0.2s">
+                    <div class="service-item">
+                        <div class="service-icon custom-bounce-in">
+                            <img src="images/findmyspot.png" alt="" style="height: 320px; width: 180px;">
+                        </div>
+                        <div class="service-text fade-in">
+                            <h3 style="color: black;">FindMySpot</h3>
+                            <p>
+                                FindMySpot is a website built using Html, CSS, PHP and JavaScript for booking parking spots nearby.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects End -->
+
+    <!-- Contact Start -->
+    <div class="contact wow fadeInUp fade-in" data-wow-delay="0.1s" id="contact">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-5">
+                        <div class="section-header text-center">
+                            <p>Get In Touch</p>
+                            <h2 style="color: antiquewhite;">Contact Me</h2>
+                        </div>
+                        <div class="contact-info">
+                            <div class="contact-icon">
+                                <i class="fa fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Address</h3>
+                                <p>Kochi, Kerala</p>
+                            </div>
+                        </div>
+                        <div class="contact-info">
+                            <div class="contact-icon">
+                                <i class="fa fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Email</h3>
+                                <p>ijasanwar1@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-info">
+                            <div class="contact-icon">
+                                <i class="fa fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Call Me</h3>
+                                <p>+91 7012932630</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="contact-form">
+                            <div id="success"></div>
+                            <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                                <div class="control-group">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group">
+                                    <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div>
+                                    <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP4+0yi5N3bt/I2LwsKoNq8guQEXkHE6oB4yljEdHME=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybBogGz1y58E2I0nKpcf5Y4rvn5s=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-pHkH+ZK8Xofo5b2mtR4PvL2D6y6sYWpYvS+Gyu69x0Bk0nsLMZltI2LO06y0RsIm" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-ZKNVE8om4MvKKb8Cqe0ssMBfG7Fq3IvjLKKdp4Sz/9TCpCujbohf3lgfNE3bfe9Ll6AqYbx3PLt2YmHv7SaNQg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+</body>
+</html>
